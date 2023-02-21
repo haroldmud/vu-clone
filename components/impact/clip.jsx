@@ -6,7 +6,7 @@ import {RxArrowRight} from "react-icons/rx"
 
 export default function Clip(){
   return(
-    <div className="w-full md:flex hidden justify-center top-[38rem] absolute ">
+    <div className="w-full md:flex hidden justify-center xl:top-[38rem] top-[30rem] absolute ">
             <div className="impact bg-white w-[45%] h-96">
               <div className="py-12 pl-12">
                 <h2 className="text-5xl text-orange font-thin">Science to Impact</h2>

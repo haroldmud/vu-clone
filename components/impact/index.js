@@ -5,8 +5,8 @@ import Wrapper from "../Wrapper"
 export default function Impact(){
   return(
     <Wrapper>
-    <section className="flex relative md:justify-center bg-back overflow-x-hidden">
-        <section className="bg-menu flex flex-col md:pb-4 pb-12 w-[98.5%] justify-center border border-blue">
+    <section className="flex relative md:justify-center bg-back">
+        <section className="bg-menu flex flex-col md:pb-4 pb-12 w-[98.5%] justify-center ">
           <div><p className="text-orange text-6xl font-[350] md:pl-48 pl-4 pt-20 pb-12">Impact</p></div>
           <img className="pb-32 md:block hidden" src="/assets/img/teacher.png" alt="teacher" />
           <img className="block md:hidden" src="/assets/img/teacher-mob.png" alt="" />
