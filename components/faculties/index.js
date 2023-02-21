@@ -1,9 +1,10 @@
 
 import Education from "./education"
+import Wrapper from "../Wrapper"
 
 export default function Faculty(){
   return(
-    <>
+    <Wrapper>
       <section className=" relative h-fit w-full flex md:justify-center">
         <div className="flex justify-center bg-white w-[98.5%] pt-6 md:h-96 h-[30rem]">
           <div className="flex md:w-9/12 w-11/12 justify-between h-fit">
@@ -50,6 +51,6 @@ export default function Faculty(){
           </div>
         </section>
       </section>
-    </>
+    </Wrapper>
   )
 }

@@ -1,9 +1,10 @@
 import {RxArrowRight} from "react-icons/rx"
 import NewsMob from "./newsMob"
+import Wrapper from "../Wrapper"
 
 export default function News(){
   return (
-    <>
+    <Wrapper>
         <section className="flex relative md:justify-center bg-back overflow-x-hidden">
           <section className="bg-menu flex flex-col w-[98.5%] justify-center md:h-[60rem] ">
           <div>
@@ -84,6 +85,6 @@ export default function News(){
         </section>
         
       </section>
-    </>
+    </Wrapper>
   )
 }
