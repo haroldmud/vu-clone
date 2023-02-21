@@ -6,91 +6,91 @@ export default function Menu(){
         <section className="md:bg-gray-100 bg-white md:pt-0 pt-12 flex flex-col w-[98.5%] justify-center md:h-[40rem]">
           <div className="justify-center flex">
             <div className="md:w-10/12 flex justify-around md:flex-row flex-col">
-              <div className="md:w-[27rem]">
-                <h2 className="text-5xl font-thin md:pl-0 pl-10 text-blue mb-8">VU main menu</h2>
+              <div className="md:w-[32%]">
+                <h2 className="text-4xl font-thin md:pl-0 pl-10 text-blue mb-8">VU main menu</h2>
                 <div className="bg-white">
                   <div className="flex flex-col gap-4 md:px-2 py-4">
                       <div href="#" className="text-main h-[2rem]  flex justify-between md:w-full md:px-4 px-10">
-                      <p className="my-auto text-2xl">Home</p>
-                      <button className="text-3xl"><RxArrowRight/></button>
+                      <p className="my-auto text-xl">Home</p>
+                      <button className="text-xl"><RxArrowRight/></button>
                       </div>
                       <div href="#" className="text-main h-[2rem]  flex justify-between md:w-full md:px-4 px-10">
-                        <p className="my-auto text-2xl">Education</p>
-                        <button className="text-3xl"><RxArrowRight/></button>
+                        <p className="my-auto text-xl">Education</p>
+                        <button className="text-xl"><RxArrowRight/></button>
                       </div>
                     <div href="#" className="text-main h-[2rem]  flex justify-between md:w-full md:px-4 px-10">
-                      <p className="my-auto text-2xl">Research</p>
-                      <button className="text-3xl"><RxArrowRight/></button>
+                      <p className="my-auto text-xl">Research</p>
+                      <button className="text-xl"><RxArrowRight/></button>
                     </div>
                     <div href="#" className="text-main h-[2rem]  flex justify-between md:w-full md:px-4 px-10">
-                      <p className="my-auto text-2xl">About VU Amsterdam</p>
-                      <button className="text-3xl"><RxArrowRight/></button>
+                      <p className="my-auto text-xl">About VU Amsterdam</p>
+                      <button className="text-xl"><RxArrowRight/></button>
                     </div>
                     <div href="#" className="text-main h-[2rem]  flex justify-between md:w-full md:px-4 px-10">
-                      <p className="my-auto text-2xl">University Library</p>
-                      <button className="text-3xl"><RxArrowRight/></button>
+                      <p className="my-auto text-xl">University Library</p>
+                      <button className="text-xl"><RxArrowRight/></button>
                     </div>
                     <div href="#" className="text-main h-[2rem]  flex justify-between md:w-full md:px-4 px-10">
-                      <p className="my-auto text-2xl">VU Press Office</p>
-                      <button className="text-3xl"><RxArrowRight/></button>
+                      <p className="my-auto text-xl">VU Press Office</p>
+                      <button className="text-xl"><RxArrowRight/></button>
                     </div>
                     <div href="#" className="text-main h-[2rem]  flex justify-between md:w-full md:px-4 px-10">
-                      <p className="my-auto text-2xl">Alumni</p>
-                      <button className="text-3xl"><RxArrowRight/></button>
+                      <p className="my-auto text-xl">Alumni</p>
+                      <button className="text-xl"><RxArrowRight/></button>
                     </div>
                 </div>
                 </div>
               </div>
-              <div className="md:w-[27rem]">
-                <h2 className="text-5xl font-thin md:pl-0 pl-10 text-orange mb-8">Most searched</h2>
+              <div className="md:w-[32%]">
+                <h2 className="text-4xl font-thin md:pl-0 pl-10 text-orange mb-8">Most searched</h2>
                 <div className="bg-white">
                   <div className="flex flex-col gap-4 md:px-2 py-4">
                       <div href="#" className="text-main h-[2rem]  flex justify-between md:w-full md:px-4 px-10">
-                      <p className="my-auto text-2xl">Contact us</p>
-                      <button className="text-3xl"><RxArrowRight/></button>
+                      <p className="my-auto text-xl">Contact us</p>
+                      <button className="text-xl"><RxArrowRight/></button>
                       </div>
                       <div href="#" className="text-main h-[2rem]  flex justify-between md:w-full md:px-4 px-10">
-                        <p className="my-auto text-2xl">People finder</p>
-                        <button className="text-3xl"><RxArrowRight/></button>
+                        <p className="my-auto text-xl">People finder</p>
+                        <button className="text-xl"><RxArrowRight/></button>
                       </div>
                     <div href="#" className="text-main h-[2rem]  flex justify-between md:w-full md:px-4 px-10">
-                      <p className="my-auto text-2xl">Bacgelor's degree programmes</p>
-                      <button className="text-3xl"><RxArrowRight/></button>
+                      <p className="my-auto text-xl">Bachelor's programmes</p>
+                      <button className="text-xl"><RxArrowRight/></button>
                     </div>
                     <div href="#" className="text-main h-[2rem]  flex justify-between md:w-full md:px-4 px-10">
-                      <p className="my-auto text-2xl">About VU Amsterdam</p>
-                      <button className="text-3xl"><RxArrowRight/></button>
+                      <p className="my-auto text-xl">About VU Amsterdam</p>
+                      <button className="text-xl"><RxArrowRight/></button>
                     </div>
                     <div href="#" className="text-main h-[2rem]  flex justify-between md:w-full md:px-4 px-10">
-                      <p className="my-auto text-2xl">University Library</p>
-                      <button className="text-3xl"><RxArrowRight/></button>
+                      <p className="my-auto text-xl">University Library</p>
+                      <button className="text-xl"><RxArrowRight/></button>
                     </div>
                     <div href="#" className="text-main h-[2rem]  flex justify-between md:w-full md:px-4 px-10">
-                      <p className="my-auto text-2xl">VU Press Office</p>
-                      <button className="text-3xl"><RxArrowRight/></button>
+                      <p className="my-auto text-xl">VU Press Office</p>
+                      <button className="text-xl"><RxArrowRight/></button>
                     </div>
                     <div href="#" className="text-main h-[2rem]  flex justify-between md:w-full md:px-4 px-10">
-                      <p className="my-auto text-2xl">Alumni</p>
-                      <button className="text-3xl"><RxArrowRight/></button>
+                      <p className="my-auto text-xl">Alumni</p>
+                      <button className="text-xl"><RxArrowRight/></button>
                     </div>
                 </div>
                 </div>
               </div>
-              <div className="md:w-[27rem]">
-                <h2 className="text-5xl font-thin md:pl-0 pl-10 text-vert mb-8">Featured</h2>
+              <div className="md:w-[32%]">
+                <h2 className="text-4xl font-thin md:pl-0 pl-10 text-vert mb-8">Featured</h2>
                 <div className="bg-white  h-[264px]">
                   <div className="flex flex-col gap-4 md:px-2 py-4">
                       <div href="#" className="text-main h-[2rem]  flex justify-between md:w-full md:px-4 px-10">
-                      <p className="my-auto text-2xl">Campus Tour</p>
-                      <button className="text-3xl"><RxArrowRight/></button>
+                      <p className="my-auto text-xl">Campus Tour</p>
+                      <button className="text-xl"><RxArrowRight/></button>
                       </div>
                       <div href="#" className="text-main h-[2rem]  flex justify-between md:w-full md:px-4 px-10">
-                        <p className="my-auto text-2xl">Study Guide</p>
-                        <button className="text-3xl"><RxArrowRight/></button>
+                        <p className="my-auto text-xl">Study Guide</p>
+                        <button className="text-xl"><RxArrowRight/></button>
                       </div>
                     <div href="#" className="text-main h-[2rem]  flex justify-between md:w-full md:px-4 px-10">
-                      <p className="my-auto text-2xl">VU Magazine</p>
-                      <button className="text-3xl"><RxArrowRight/></button>
+                      <p className="my-auto text-xl">VU Magazine</p>
+                      <button className="text-xl"><RxArrowRight/></button>
                     </div>
                     <div>
                       <img className="md:px-4 px-10 md:mt-28 mt-10 md:w-auto w-10/12" src="/assets/img/icons.png" alt="" />

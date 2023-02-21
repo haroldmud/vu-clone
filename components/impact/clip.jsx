@@ -5,11 +5,11 @@ import { RxArrowRight } from "react-icons/rx";
 
 export default function Clip() {
   return (
-    <div className="w-full md:flex hidden justify-center xl:top-[37rem] lg:top-[35rem] top-[28rem] absolute ">
+    <div className="w-[98.5%] md:flex hidden justify-center xl:top-[30rem] lg:top-[35rem] top-[28rem] absolute ">
       <div className="impact bg-white w-[45%]- h-96- max-w-2xl mx-auto">
-        <div className="py-12 pl-12">
-          <h2 className="text-5xl text-orange font-thin">Science to Impact</h2>
-          <p className="py-8 text-3xl pr-32">
+        <div className="pt-12 pl-12">
+          <h2 className="text-3xl text-orange font-thin">Science to Impact</h2>
+          <p className="py-8 text-xl">
             An interview with entrepreneurial scientist Davide Iannuzzi, Chief
             Impact Officer of Vrije Universiteit Amsterdam
           </p>
@@ -23,21 +23,21 @@ export default function Clip() {
                 <RxArrowRight />
               </button>
             </div>
-            <div className="pt-9 w-[50%]">
-              <div className=" flex justify-between text-orange">
-                <div className="text-6xl flex flex-col justify-center">
+            <div className="w-[50%] flex justify-end pt-12">
+              <div className=" flex justify-between w-[70%] text-orange">
+                <div className="text-4xl flex flex-col justify-center">
                   <GoPrimitiveDot />
                 </div>
-                <div className="text-3xl text-orange-dot flex flex-col justify-center">
+                <div className="text-2xl text-orange-dot flex flex-col justify-center">
                   <GoPrimitiveDot />
                 </div>
-                <div className="text-3xl text-orange-dot flex flex-col justify-center">
+                <div className="text-2xl text-orange-dot flex flex-col justify-center">
                   <GoPrimitiveDot />
                 </div>
-                <div className="text-3xl text-orange-dot flex flex-col justify-center">
+                <div className="text-2xl text-orange-dot flex flex-col justify-center">
                   <GoPrimitiveDot />
                 </div>
-                <div className="flex bg-orange-fade gap-16 py-6 px-4">
+                <div className="flex bg-orange-fade gap-10 py-4 px-4">
                   <div className="text-main text-[23px] my-auto">
                     <BsChevronLeft />
                   </div>

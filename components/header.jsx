@@ -4,8 +4,6 @@ import {RxHamburgerMenu} from "react-icons/rx"
 import {TfiClose} from 'react-icons/tfi'
 import {AiOutlinePlus} from 'react-icons/ai'
 import { RxArrowRight } from "react-icons/rx"
-import Study from "@/pages/study"
-import Research from "@/pages/research"
 import Link from "next/link"
 
 export default function Header(props) {

@@ -7,13 +7,13 @@ export default function Impact(){
     <Wrapper>
     <section className="flex relative md:justify-center bg-back">
         <section className="bg-menu flex flex-col md:pb-32  pb-12  w-[98.5%] justify-center ">
-          <div><p className="text-orange text-6xl font-[350] md:pl-48 pl-4 pt-20 pb-12">Impact</p></div>
+          <div><p className="text-orange text-4xl font-[350] md:pl-48 pl-4 pt-20 pb-12">Impact</p></div>
           <img className="pb-32 md:block hidden" src="/assets/img/teacher.png" alt="teacher" />
           <img className="block md:hidden" src="/assets/img/teacher-mob.png" alt="" />
           <Clip/>
           <div className="md:hidden bg-white pl-4 pt-12 pb-6">
-            <h2 className="text-3xl text-orange font-thin">Science to Impact</h2>
-            <p className="py-8 text-2xl pr-32">
+            <h2 className="text-2xl text-orange font-thin">Science to Impact</h2>
+            <p className="py-8 text-xl pr-32">
               An interview with entrepreneurial scientist Davide Iannuzzi, Chief Impact Officer of Vrije Universiteit Amsterdam
             </p>
             <div className="flex justify-between">

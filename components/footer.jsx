@@ -4,8 +4,8 @@ export default function Footer(){
   return(
     <>
       <section className="md:flex hidden md:justify-center">
-        <div className="w-[98.5%] bg-blue text-2xl text-white">
-          <div className="w-fit mx-auto flex flex-col gap-8 py-12">
+        <div className="w-[98.5%] bg-blue  text-white">
+          <div className="w-fit mx-auto flex flex-col gap-6 py-12">
           <ul className="md:flex grid grid-cols-3">
             <li className="flex">Privacy Statement
             <span className="my-auto mr-4"><RxArrowRight/></span></li>
@@ -35,7 +35,7 @@ export default function Footer(){
         </div>
       </section>
       <section className="flex md:hidden md:justify-center">
-        <div className="w-[98.5%] bg-blue text-2xl text-white">
+        <div className="w-[98.5%] bg-blue  text-white">
           <div className="w-fit mx-auto flex flex-col gap-8 py-12">
           <ul className="md:flex">
             <div className="flex">

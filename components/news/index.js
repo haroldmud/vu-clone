@@ -21,11 +21,11 @@ export default function News(){
                   
                   <div className="">
                     <h1 className="font-bold text-mauve text-2xl">08 Feb 2023</h1>
-                    <p className="text-3xl font-thin">
+                    <p className="text-2xl font-thin">
                       Earthquakes Turkey and Syria
                     </p>
                   </div>
-                  <div className="text-3xl flex flex-col justify-end">
+                  <div className="text-2xl flex flex-col justify-end">
                     <RxArrowRight/>
                   </div>
                 </div>
@@ -34,11 +34,11 @@ export default function News(){
                   
                   <div className="">
                     <h1 className="font-bold text-mauve text-2xl">15 Feb 2023</h1>
-                    <p className="text-3xl font-thin">
+                    <p className="text-2xl font-thin">
                       Robot bird give singing lessons to zebra finches
                     </p>
                   </div>
-                  <div className="text-3xl flex flex-col justify-end">
+                  <div className="text-2xl flex flex-col justify-end">
                     <RxArrowRight/>
                   </div>
                 </div>
@@ -49,8 +49,8 @@ export default function News(){
                   
                   <div className="">
                     <h1 className="font-bold text-mauve text-2xl">08 Feb 2023</h1>
-                    <p className="text-3xl font-thin flex">
-                      EU grant to improve mental well-being of... <span className="text-3xl flex flex-col justify-end -mb-4"><RxArrowRight/></span>
+                    <p className="text-2xl font-thin flex">
+                      EU grant to improve mental well-being of... <span className="text-2xl flex flex-col justify-end "><RxArrowRight/></span>
                     </p>
                   </div>
                 </div>
@@ -59,8 +59,8 @@ export default function News(){
                   
                     <div className="">
                     <h1 className="font-bold text-mauve text-2xl">08 Feb 2023</h1>
-                    <p className="text-3xl font-thin flex">
-                      EU grant to improve mental well-being of... <span className="text-3xl flex flex-col justify-end -mb-4"><RxArrowRight/></span>
+                    <p className="text-2xl font-thin flex">
+                      EU grant to improve mental well-being of... <span className="text-2xl flex flex-col justify-end "><RxArrowRight/></span>
                     </p>
                   </div>
                 </div>
@@ -69,8 +69,8 @@ export default function News(){
                   
                     <div className="">
                     <h1 className="font-bold text-mauve text-2xl">08 Feb 2023</h1>
-                    <p className="text-3xl font-thin flex">
-                      EU grant to improve mental well-being of... <span className="text-3xl flex flex-col justify-end -mb-4"><RxArrowRight/></span>
+                    <p className="text-2xl font-thin flex">
+                      EU grant to improve mental well-being of... <span className="text-2xl flex flex-col justify-end "><RxArrowRight/></span>
                     </p>
                   </div>
                 </div>
@@ -79,7 +79,7 @@ export default function News(){
             </div>
             <NewsMob/>
             <div className="flex justify-center pb-12 md:pt-28 pt-12">
-            <a href="#" className="flex text-3xl">News overview <span className=" flex flex-col justify-center -mb-2"><RxArrowRight/></span></a>
+            <a href="#" className="flex text-2xl">News overview <span className=" flex flex-col justify-center -mb-2"><RxArrowRight/></span></a>
             </div>
           </div>
         </section>
