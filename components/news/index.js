@@ -6,7 +6,7 @@ export default function News(){
   return (
     <Wrapper>
         <section className="flex relative md:justify-center bg-back overflow-x-hidden">
-          <section className="bg-menu flex flex-col w-[98.5%] justify-center md:h-[60rem] ">
+          <section className="bg-menu flex flex-col w-[98.5%] justify-center  ">
           <div>
             <div className="flex justify-center  py-8">
               <div className="md:w-10/12 w-11/12">

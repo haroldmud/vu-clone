@@ -8,7 +8,7 @@ export default function Impact(){
     <section className="flex relative md:justify-center bg-back">
         <section className="bg-menu flex flex-col md:pb-32  pb-12  w-[98.5%] justify-center ">
           <div><p className="text-orange text-4xl font-[350] md:pl-48 pl-4 pt-20 pb-12">Impact</p></div>
-          <img className="pb-32 md:block hidden" src="/assets/img/teacher.png" alt="teacher" />
+          <img className="pb-6 md:block hidden" src="/assets/img/teacher.png" alt="teacher" />
           <img className="block md:hidden" src="/assets/img/teacher-mob.png" alt="" />
           <Clip/>
           <div className="md:hidden bg-white pl-4 pt-12 pb-6">
