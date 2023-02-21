@@ -14,3 +14,8 @@ clip-path: polygon(17% 0, 100% 0%, 100% 100%, 0 100%, 0 0, 11.2% 0, 14.1% 7%);
 .flow::-webkit-scrollbar{
   background-color: transparent;
 }
+
+.menu{
+  -webkit-clip-path: polygon(83% 0, 83% 14%, 100% 14%, 100% 100%, 0 100%, 0 43%, 0 0);
+clip-path: polygon(95% 0, 95% 14%, 100% 14%, 100% 100%, 0 100%, 0 43%, 0 0);
+}

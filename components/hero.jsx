@@ -1,8 +1,9 @@
 import {CiSearch} from "react-icons/ci"
 import {RxArrowRight} from "react-icons/rx" 
 
-export default function Hero(){
+export default function Hero(props){
   return(
+    <>
     <section className="md:relative">
         <div className="bg-back md:h-[20rem]  w-full flex md:justify-center">
           <div className="flex justify-center pb-6 bg-hero w-[98.5%] ">
@@ -34,5 +35,9 @@ export default function Hero(){
           <img className="md:w-auto md:h-auto h-[15rem] object-cover" src="/assets/img/main.jpg" alt="" />
         </div>
       </section>
+      <div className={`absolute z-20 top-[6.3rem] w-full `}>
+        {props.content}
+      </div>
+    </>
   )
 }
