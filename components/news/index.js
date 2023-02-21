@@ -10,7 +10,7 @@ export default function News(){
           <div>
             <div className="flex justify-center  py-8">
               <div className="md:w-10/12 w-11/12">
-              <h2 className="text-6xl font-thin text-mauve">News</h2>
+              <h2 className="text-5xl font-thin text-mauve">News</h2>
               </div>
             </div>
             <div className="md:flex hidden justify-center ">

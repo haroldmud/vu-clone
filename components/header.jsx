@@ -16,7 +16,7 @@ export default function Header(props) {
           <img className=" ml-[10%]" src="/assets/icons/VUlogo.png"/>
         </div>
         <div className="flex flex-col md:w-[18.7%] w-[45%] justify-center bg-menu md:px-0 px-4">
-          <div className="md:text-4xl text-3xl flex justify-around">
+          <div className="md:text-2xl flex justify-around">
             <p className="font-thin">NL</p>
             <div className="w-fit mt-1"><CiUser/></div>
             <div className="w-fit mt-1"><CiSearch/></div>
@@ -29,38 +29,38 @@ export default function Header(props) {
     </section>
     <div className={`${props.show ? 'flex' :'hidden'} fixed z-20 top-0 justify-center w-full`}>
         <div className="bg-white relative h-[100vh]  w-[98.5%] flex md:justify-center overflow-y-scroll ">
-          <div onClick={()=>props.setShow(false)} className="absolute right-0 bg-back p-6 text-3xl">
+          <div onClick={()=>props.setShow(false)} className="absolute right-0 bg-back p-6 text-2xl">
             <TfiClose/>
           </div>
-          <div className="flex ml-32 pb-6 bg-white w-[100%] ">
-            <div className="md:w-[62.2%] w-10/12">
+          <div className="flex md:ml-32 pb-6 bg-white w-[100%] ">
+            <div className="md:w-[62.2%] w-10/12 flex md:justify-start justify-center">
               
               <div className="flex flex-col gap-12 py-[15rem]">
-                <Link href={"/study"} className="flex w-[50%] cursor-pointer justify-between  text-3xl font-semibold">
+                <Link href={"/study"} className="flex md:w-[50%] cursor-pointer justify-between  text-2xl font-semibold">
                   <p>Study at VU Amsterdam</p>
                   <span className="my-auto "><AiOutlinePlus/></span>
                 </Link>
-                <Link href={"/research"} className="flex w-[50%] cursor-pointer justify-between  text-3xl font-semibold">
+                <Link href={"/research"} className="flex md:w-[50%] cursor-pointer justify-between  text-2xl font-semibold">
                   <p>Research</p>
                   <span className="my-auto "><AiOutlinePlus/></span>
                 </Link>
-                <Link href={"/research"} className="flex w-[50%] cursor-pointer justify-between  text-3xl font-semibold">
+                <Link href={"/research"} className="flex md:w-[50%] cursor-pointer justify-between  text-2xl font-semibold">
                   <p>About VU Amsterdam</p>
                   <span className="my-auto "><RxArrowRight/></span>
                 </Link>
-                <Link href={"/research"} className="flex w-[50%] cursor-pointer justify-between  text-3xl font-semibold">
+                <Link href={"/research"} className="flex md:w-[50%] cursor-pointer justify-between  text-2xl font-semibold">
                   <p>VU Press Office</p>
                   <span className="my-auto "><RxArrowRight/></span>
                 </Link>
-                <Link href={"/research"} className="flex w-[50%] cursor-pointer justify-between  text-3xl font-semibold">
+                <Link href={"/research"} className="flex md:w-[50%] cursor-pointer justify-between  text-2xl font-semibold">
                   <p>Alumni</p>
                   <span className="my-auto "><RxArrowRight/></span>
                 </Link>
-                <Link href={"/research"} className="flex w-[50%] cursor-pointer justify-between  text-3xl font-semibold">
+                <Link href={"/research"} className="flex md:w-[50%] cursor-pointer justify-between  text-2xl font-semibold">
                   <p>Student</p>
                   <span className="my-auto "><RxArrowRight/></span>
                 </Link>
-                <Link href={"/research"} className="flex w-[50%] cursor-pointer justify-between  text-3xl font-semibold">
+                <Link href={"/research"} className="flex md:w-[50%] cursor-pointer justify-between  text-2xl font-semibold">
                   <p>Employee</p>
                   <span className="my-auto "><RxArrowRight/></span>
                 </Link>
