@@ -2,7 +2,7 @@ import {RxArrowRight} from "react-icons/rx"
 
 export default function Education(){
   return(
-    <div className=" w-full absolute z-20 md:top-[51rem]  top-[60rem]">
+    <div className=" w-full md:absolute z-20 md:top-[51rem]  top-[60rem]">
     <div className="w-full  flex md:flex-row flex-col justify-center gap-8 max-w-[1280px] mx-auto ">
         <a href="#" className="md:w-[40%] w-[90%] md:mx-0 mx-auto bg-white flex flex-col justify-center md:p-6 pt-4 pb-8 shadow-lg">
    

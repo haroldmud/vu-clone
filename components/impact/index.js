@@ -6,7 +6,7 @@ export default function Impact(){
   return(
     <Wrapper>
     <section className="flex relative md:justify-center bg-back">
-        <section className="bg-menu flex flex-col md:pb-32  pb-12  w-[98.5%] justify-center ">
+        <section className="bg-menu flex flex-col md:pb-32    w-[98.5%] justify-center ">
           <div><p className="text-orange text-4xl font-[350] md:pl-48 pl-4 pt-20 pb-12">Impact</p></div>
           <img className="pb-6 md:block hidden" src="/assets/img/teacher.png" alt="teacher" />
           <img className="block md:hidden" src="/assets/img/teacher-mob.png" alt="" />
@@ -26,7 +26,7 @@ export default function Impact(){
         </section>
       </section>
         <section className="flex md:justify-center bg-back">
-          <section className="bg-gray-100 flex flex-col md:h-auto h-[40rem] w-[98.5%] justify-center">
+          <section className="bg-gray-100 flex flex-col md:h-auto  w-[98.5%] justify-center">
            <div className="flex flex-col justify-center  py-20">
               <div className="flex md:flex-row flex-col justify-center gap-12 md:w-auto w-full ">
                   <div className="pointer md:mx-0 mx-auto bg-white md:w-[38.4%] w-11/12 h-[179px] flex justify-between px-6">
@@ -36,7 +36,7 @@ export default function Impact(){
                     </div>
                     <div className="flex flex-col text-3xl pb-6 justify-end"><RxArrowRight/></div>
                   </div>
-                  <div className="pointer md:mx-0 mx-auto bg-white md:w-[38.4%] w-11/12 md:h-[179px] h-[15rem] flex justify-between px-6">
+                  <div className="pointer md:mx-0 mx-auto bg-white md:w-[38.4%] w-11/12 md:h-[179px]  flex justify-between px-6">
                     <div className="flex flex-col gap-8 mt-12">
                       <h2 className="text-3xl text-violet font-thin">VU & Corona</h2>
                       <p className="text-2xl font-thin text-transparent">Information and support</p>

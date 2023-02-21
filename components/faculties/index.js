@@ -6,7 +6,7 @@ export default function Faculty(){
     <>
     <Wrapper>
       <section className=" relative h-fit z-10 w-full flex md:justify-center">
-        <div className="flex justify-center bg-white w-[98.5%] pt-6 md:h-96 h-[30rem]">
+        <div className="flex justify-center bg-white w-[98.5%] pt-6 md:h-96 md:pb-auto pb-20">
           <div className="flex md:w-10/12 w-11/12 justify-between h-fit">
             <div className="flex gap-4 md:flex-row flex-col">
               <div className="flex flex-col justify-center">
@@ -38,7 +38,7 @@ export default function Faculty(){
       </Wrapper>
       <Education/>
       <Wrapper>
-      <section className="bg-back h-fit w-full flex md:justify-center shadow-lg">
+      <section className="bg-back h-fit w-full md:flex hidden md:justify-center shadow-lg">
         <div className="flex justify-center bg-menu w-[98.5%] pt-12 md:h-56 h-[31rem]"></div>
       </section>
       <section className="flex md:justify-center bg-back">
