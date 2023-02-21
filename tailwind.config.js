@@ -17,11 +17,13 @@ module.exports = {
         'hero':'#f4f4f4',
         'blue':'#0077b3',
         'blues':'#3b83b7',
+        'blue-fade':'#dff2fd',
         'orange':'#cd4404',
         'orange-dot':"#e8692d",
         'orange-fade':"#fcd3b6",
         'vert':"#008053",
-        'violet':"#72619c"
+        'violet':"#72619c",
+        'mauve':'#3b2171'
       },
     },
   },

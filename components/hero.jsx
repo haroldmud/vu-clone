@@ -23,8 +23,8 @@ export default function Hero(){
             </div>
             </div>
             <div className=" md:w-[41.2%] flex flex-col justify-center">
-              <a href="#" className="text-blues h-[6rem] font-thin  flex justify-between md:w-full md:px-4 px-10">
-                <p className="my-auto md:text-4xl text-2xl">About VU Amsterdam</p>
+              <a href="#" className="text-blues h-[6rem] bg-white font-thin  flex justify-between md:w-full md:px-4 px-10">
+                <p className="my-auto md:text-4xl text-2xl ">About VU Amsterdam</p>
                 <button className="text-4xl"><RxArrowRight/></button>
               </a>
             </div>

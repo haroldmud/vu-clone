@@ -4,7 +4,7 @@ import {RxHamburgerMenu} from "react-icons/rx"
 
 export default function Header() {
   return (
-    <section className="bg-back h-fit w-full flex md:justify-center  sticky top-0 z-10">
+    <section className="bg-transparent h-fit w-full flex md:justify-center  sticky top-0 z-10">
       <header className="bg-white md:h-[75px] h-[5rem]  w-[98.5%] flex justify-between shadow-lg">
         <div className="flex flex-col md:w-[14.78%] w-[50%] h-full justify-center md:ml-8">
           <img className=" ml-[10%]" src="/assets/icons/VUlogo.png"/>

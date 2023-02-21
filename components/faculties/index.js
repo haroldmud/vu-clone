@@ -4,8 +4,8 @@ import Education from "./education"
 export default function Faculty(){
   return(
     <>
-      <section className="bg-back relative h-fit w-full flex md:justify-center">
-        <div className="flex justify-center bg-white w-[98.5%] pt-12 md:h-96 h-[30rem]">
+      <section className=" relative h-fit w-full flex md:justify-center">
+        <div className="flex justify-center bg-white w-[98.5%] pt-6 md:h-96 h-[30rem]">
           <div className="flex md:w-9/12 w-11/12 justify-between h-fit">
             <div className="flex gap-4 md:flex-row flex-col">
               <div className="flex flex-col justify-center">
