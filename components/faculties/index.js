@@ -12,25 +12,25 @@ export default function Faculty(){
               <div className="flex flex-col justify-center">
               <img className="w-12" src="/assets/icons/icon1.png" alt="" />
               </div>
-              <p className="font-semibold my-auto md:text-xl md:text-left text-center md:w-auto w-[50%]">31.704 students</p>
+              <p className="font-semibold my-auto md:text-xl text-[1rem] md:text-left text-center md:w-auto w-[50%]">31.704 students</p>
             </div>
             <div className="flex gap-4 md:flex-row flex-col">
               <div>
               <img className="w-12" src="/assets/icons/icon2.png" alt="" />
               </div>
-              <p className="font-semibold my-auto md:text-xl md:text-left text-center md:w-auto w-[50%]">5.190 international students</p>
+              <p className="font-semibold my-auto md:text-xl text-[1rem] md:text-left text-center md:w-auto w-[50%]">5.190 international students</p>
             </div>
             <div className="flex gap-4 md:flex-row flex-col">
               <div>
                 <img className="w-12" src="/assets/icons/icon3.png" alt="" />
               </div>
-              <p className="font-semibold my-auto md:text-xl">459 PhD defences</p>
+              <p className="font-semibold my-auto md:text-xl text-[1rem]">459 PhD defences</p>
             </div>
             <div className="flex gap-4 md:flex-row flex-col">
               <div>
                 <img className="w-12" src="/assets/icons/icon4.png" alt="" />
               </div>
-              <p className="font-semibold my-auto md:text-xl md:text-left text-center md:w-auto w-[50%]">9 faculties</p>
+              <p className="font-semibold my-auto md:text-xl text-[1rem] md:text-left text-center md:w-auto w-[50%]">9 faculties</p>
             </div>
           </div>
         </div>

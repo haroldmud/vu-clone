@@ -8,7 +8,7 @@ export default function Hero(props) {
       <section className="md:relative">
         <Wrapper>
           <div className="bg-back  w-full flex md:justify-center">
-            <div className="flex justify-center pb-6 bg-hero w-[98.5%] border border-red-500">
+            <div className="flex justify-center pb-6 bg-hero w-[98.5%]">
               <div className="md:w-[62.2%] w-10/12 md:py-16 py-8">
                 <p className="mt-4 md:text-4xl text-3xl  md:font-thin md:pr-0 pr-12">
                   You don't just become something, you become someone

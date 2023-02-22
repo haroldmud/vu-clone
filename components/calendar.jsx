@@ -8,7 +8,7 @@ export default function Calendar(){
   return(
     <>
       <section className=" relative h-fit w-[100%]  flex md:justify-center">
-        <div className="flex justify-center bg-gray-100 w-[98.5%] pt-6 md:h-[40rem] h-[53rem]">
+        <div className="flex justify-center bg-gray-100 w-[98.5%] pt-6 md:h-[40rem]">
           <div className="md:w-10/12 w-11/12 ">
             <div className="flex md:flex-row flex-col md:justify-between ">
               <h2 className="text-5xl font-thin text-blue">Calendar</h2>
@@ -51,7 +51,7 @@ export default function Calendar(){
               </div>
             </div>
             <div>
-            <div className="md:hidden flex justify-center mt-28">
+            <div className="md:hidden flex justify-center mt-28 pb-20">
             <a href="#" className="flex text-xl my-auto">View Calendar <span className=" flex flex-col justify-center ml-4"><RxArrowRight/></span></a>
             </div>
             <div className="md:flex hidden justify-between h-[5rem] md:border-t border-blue mt-16">
