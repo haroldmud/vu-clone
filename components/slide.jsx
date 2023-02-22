@@ -11,7 +11,7 @@ export default function Slide(){
           </div>
           <div className="overflow-x-scroll flow mt-16"> 
 
-                              <div className="flex w-[130rem]  gap-12 md:pb-0 pb-16">
+                              <div className="flex w-[105rem]  gap-12 md:pb-0 pb-16">
                                   <div className="flex flex-col gap-4 cursor-pointer w-[289px] ">
                                       <img className="w-full h-[386px] object-cover" src="https://assets.vu.nl/d8b6f1f5-816c-005b-1dc1-e363dd7ce9a5/ee314579-ae99-4e24-a166-e4275b7b26d7/MH_G3A6804_Spinozaprijs_Hero_2200x720_3.png?w=397&h=595&fit=clip&rect=673%2C125%2C397%2C595&fm=jpg&auto=format&q=40&dpr=2" alt="" />
                                     <div className="">
