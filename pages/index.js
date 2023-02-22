@@ -16,8 +16,10 @@ import Wrapper from "@/components/Wrapper"
 export default function Home() {
   const [show, setShow] = useState(false)
   return (
-  <>
-      <Wrapper>
+  <main className="bg-back ">
+      <Wrapper
+        style="sticky top-0 z-10  bg-transparent "
+      >
       <Header
         show={show}
         setShow={setShow}
@@ -36,6 +38,6 @@ export default function Home() {
       <Menu/>
       <Footer/>
       </Wrapper>
-    </>
+    </main>
   )
 }
