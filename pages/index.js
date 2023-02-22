@@ -18,7 +18,7 @@ export default function Home() {
   return (
   <main className="bg-back ">
       <Wrapper
-        style="sticky top-0 z-10  bg-transparent "
+        style="sticky top-0 z-50  bg-transparent "
       >
       <Header
         show={show}
