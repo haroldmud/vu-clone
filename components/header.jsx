@@ -33,9 +33,9 @@ export default function Header(props) {
             <TfiClose/>
           </div>
           <div className="flex md:ml-32 pb-6 bg-white w-[100%] ">
-            <div className="md:w-[62.2%] w-10/12 flex md:justify-start justify-center">
+            <div className="md:w-[80%]  flex md:justify-start justify-center">
               
-              <div className="flex flex-col gap-12 py-[15rem]">
+              <div className="flex flex-col gap-12 py-[15rem] md:pl-0 pl-12 w-full">
                 <Link href={"/study"} className="flex md:w-[50%] cursor-pointer justify-between  text-2xl font-semibold">
                   <p>Study at VU Amsterdam</p>
                   <span className="my-auto "><AiOutlinePlus/></span>
