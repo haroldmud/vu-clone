@@ -78,7 +78,7 @@ export default function Menu(){
               </div>
               <div className="md:w-[32%]">
                 <h2 className="text-4xl font-thin md:pl-0 pl-10 text-vert mb-8">Featured</h2>
-                <div className="bg-white  h-[264px]">
+                <div className="bg-white  pb-[0.85rem]">
                   <div className="flex flex-col gap-4 md:px-2 py-4">
                       <div href="#" className="text-main h-[2rem]  flex justify-between md:w-full md:px-4 px-10">
                       <p className="my-auto text-xl">Campus Tour</p>
