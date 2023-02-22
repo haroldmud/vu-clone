@@ -3,9 +3,9 @@ import Wrapper from "../Wrapper"
 
 export default function Faculty(){
   return(
-    <>
+    <section className="relative">
     <Wrapper>
-      <section className=" relative h-fit z-10 w-full flex md:justify-center">
+      <section className="h-fit z-10 w-full flex md:justify-center">
         <div className="flex justify-center bg-white w-[98.5%] pt-6 md:h-96 md:pb-auto pb-20">
           <div className="flex md:w-10/12 w-11/12 justify-between h-fit">
             <div className="flex gap-4 md:flex-row flex-col">
@@ -54,6 +54,6 @@ export default function Faculty(){
         </section>
       </section>
     </Wrapper>
-    </>
+    </section>
   )
 }
